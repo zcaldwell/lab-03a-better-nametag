@@ -1,8 +1,9 @@
-// import functions and grab DOM elements
+const nameInput = document.getElementById('name-input');
+const button = document.getElementById('generate');
+const firstName = document.getElementById('my-name');
 
-// initialize global state
+button.addEventListener('click', ()=>{
+    let nameValue = nameInput.value;
+    firstName.textContent = nameValue;
+});
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
