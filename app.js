@@ -1,11 +1,14 @@
 const nameInput = document.getElementById('name-input');
-const button = document.getElementById('generateblue');
 const firstName = document.getElementById('my-name');
+const button = document.getElementById('generateblue');
 const button2 = document.getElementById('generategreen');
 const button3 = document.getElementById('generatepink');
 const pronounInput = document.getElementById('pronoun-input');
 const pronounOutput = document.getElementById('pronoun-output');
 const pronounButton = document.getElementById('generatepronoun');
+const fontInput = document.getElementById('font-input');
+const fontOutput = document.getElementById('font-output');
+const fontButton = document.getElementById('ariel');
 
 button.addEventListener('click', ()=>{
     let nameValue = nameInput.value;
@@ -31,5 +34,11 @@ button3.addEventListener('click', ()=>{
 pronounButton.addEventListener('click', ()=>{
     let pronounValue = pronounInput.value;
     pronounOutput.textContent = pronounValue;
+});
+
+fontButton.addEventListener('click', ()=>{
+    let fontValue = fontInput.value;
+    fontOutput.textcontent = fontValue;
+    document.getElementById('hello').style.fontFamily = 'Ariel';
 });
 
