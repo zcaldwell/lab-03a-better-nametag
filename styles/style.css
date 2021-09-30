@@ -36,10 +36,10 @@ h3 {
     background-color: white;
     height: 100px;
     width: 300px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'Ariel';
     font-weight: bold;
     position: absolute; top: 120px;
-    text-align: center; ""
+    text-align: center; 
 }
 
 #name-footer {

@@ -6,7 +6,6 @@ const button3 = document.getElementById('generatepink');
 const pronounInput = document.getElementById('pronoun-input');
 const pronounOutput = document.getElementById('pronoun-output');
 const pronounButton = document.getElementById('generatepronoun');
-const fontInput = document.getElementById('font-input');
 const fontOutput = document.getElementById('font-output');
 const fontButton = document.getElementById('ariel');
 
@@ -36,9 +35,4 @@ pronounButton.addEventListener('click', ()=>{
     pronounOutput.textContent = pronounValue;
 });
 
-fontButton.addEventListener('click', ()=>{
-    let fontValue = fontInput.value;
-    fontOutput.textcontent = fontValue;
-    document.getElementById('hello').style.fontFamily = 'Ariel';
-});
 
